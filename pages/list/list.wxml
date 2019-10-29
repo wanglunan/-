@@ -1,0 +1,9 @@
+<!--pages/list/list.wxml-->
+<view class='container'>
+    <view bindtap='toDetail' data-groupid="{{item.group_id}}" data-itemid="{{item.item_id}}" wx:for="{{list}}" wx:key="key" class='list'>
+        <view class='intro'>
+            <view class='author'>{{item.source}}</view>
+            <view class='detail'>{{item.title}}</view>
+        </view>
+    </view>
+</view>

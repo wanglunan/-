@@ -1,0 +1,5 @@
+<!--welcome-->
+<view class='container'>
+    <open-data class="head-img" type="userAvatarUrl"></open-data>
+    <button class='title' bindtap='goListPage'>搞笑一下</button> 
+</view>

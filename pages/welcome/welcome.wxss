@@ -1,0 +1,17 @@
+/* welcome.wxss */
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column
+}
+.head-img{
+    width: 300rpx;
+    height: 300rpx;
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.title{
+    font-size: 46rpx;
+    margin-top: 300rpx
+}
