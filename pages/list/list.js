@@ -1,4 +1,6 @@
 // pages/list/list.js
+//获取应用实例
+const app = getApp()
 Page({
 
     /**
@@ -20,14 +22,22 @@ Page({
                 this.setData({
                     list: res.data.data
                 })
+                app.globalData.listData = res.data.data
+                console.log(app.globalData.listData)
+                // if (!res.ugc_data.ugc_images) {
+                //     return
+                // }
+                // app.globalData.imgList = res.ugc_data.ugc_images
+                // console.log(app.globalData.imgList)
             }
         })
     },
     toDetail: (event) => {
         var group_id = event.currentTarget.dataset.groupid
         var item_id = event.currentTarget.dataset.itemid
+        var index = event.currentTarget.dataset.index
         wx.navigateTo({
-            url: '../detail/detail?group_id=' + group_id + '&item_id' + item_id
+            url: '../detail/detail?group_id=' + group_id + '&item_id=' + item_id + '&index=' + index
         })
     },
 

@@ -1,2 +1,9 @@
 <!--pages/datail/detail.wxml-->
-<view>123</view>
+<view class='container'>
+    <view class='detail'>
+        <text>{{detail.group.content}}</text>
+        <view wx:for="{{imgList}}" wx:key="{{key}}">
+            <image class='img' src='{{item.url}}'></image>
+        </view>
+    </view>
+</view>

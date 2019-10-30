@@ -1,1 +1,13 @@
 /* pages/datail/detail.wxss */
+.img{
+    display: block;
+    margin: 5%;
+    width: 90%
+}
+.detail{
+    padding-bottom: 20rpx
+}
+text{
+    margin: 0 5%;
+    display: block;
+}

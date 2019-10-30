@@ -14,11 +14,13 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.9.1",
 	"appid": "wxb6b5870ea642e674",
-	"projectname": "fenglv",
+	"projectname": "gaoxiao",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
